@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "name": "andc",
+      "age": "45",
+      "dateOfBirth": "2022-03-31",
+      "stateofr": "Maharashtra",
+      "address": "Bhanapeth Ward No 2 , Near Police Line",
+      "pincode": "442401",
+      "id": 1
+    }
+  ]
+}
