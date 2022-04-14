@@ -1,0 +1,12 @@
+.products{
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(3, 200px);
+    gap:30px
+}
+.products>div{
+    border:1px solid black;
+     /* text-align: center; */
+}

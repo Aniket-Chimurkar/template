@@ -1,0 +1,26 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
+import { Provider } from 'react-redux'
+import { store } from './Redux/store'
+import { BrowserRouter } from 'react-router-dom'
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <BrowserRouter>
+         <App />
+      </BrowserRouter>
+    </Provider>  
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+//combineReducers, createStore---> ReactReduxContext;
+//Provider --->react-redux
+
+//useSelector ---> to get the state from redux store;
+//useDispatch --->  dispatch that will allow you to redux store
+
