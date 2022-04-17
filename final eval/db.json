@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "username": "shreya pannase",
+      "gender": "f",
+      "age": "22",
+      "img": "https://media-exp1.licdn.com/dms/image/C5603AQFlu05ZsXruUA/profile-displayphoto-shrink_800_800/0/1644682248321?e=1655942400&v=beta&t=b1UahGRJLJ8t9qjWZH7Tp6Si5CnxmE3GnDy8A-X6XZw",
+      "totalclass": "4",
+      "id": 1,
+      "classes":[
+        {
+          "grade":"A",
+          "section":"a",
+          "subject":"English"
+        },
+        {
+         "grade":"b",
+         "section":"a",
+         "subject":"Science"
+       },
+       {
+         "grade":"A",
+         "section":"a",
+         "subject":"Science"
+       }
+ 
+      ]
+    },
+    {
+      "username": "aniket_chimurkar",
+      "gender": "m",
+      "age": "22",
+      "img": "https://media-exp1.licdn.com/dms/image/C4E03AQFh0W2CgeaPJw/profile-displayphoto-shrink_200_200/0/1648010193886?e=1655942400&v=beta&t=DNKGQNwC_wzKbbmqdKWr6q4U6zDHVxToLbt5lfHlJrQ",
+      "totalclass": "12",
+      "id": 2,
+      "classes":[
+        {
+          "grade":"A",
+          "section":"a",
+          "subject":"English"
+        },
+        {
+         "grade":"b",
+         "section":"a",
+         "subject":"Science"
+       },
+       {
+         "grade":"A",
+         "section":"a",
+         "subject":"Science"
+       }
+ 
+      ]
+    },
+    {
+      "username": "shubham",
+      "gender": "m",
+      "age": "22",
+      "img": "https://media-exp1.licdn.com/dms/image/C5603AQF4SAc1qbIhQg/profile-displayphoto-shrink_200_200/0/1645110033825?e=1655942400&v=beta&t=oyCRHHP5g3JPkapqkUjGu3_HuijmzPXwbBttYb0vgdw",
+      "totalclass": "8",
+      "id": 3,
+      "classes":[
+        {
+          "grade":"A",
+          "section":"a",
+          "subject":"English"
+        },
+        {
+         "grade":"b",
+         "section":"a",
+         "subject":"Science"
+       },
+       {
+         "grade":"A",
+         "section":"a",
+         "subject":"Science"
+       }
+ 
+      ]
+    },
+    {
+      "username": "manali",
+      "gender": "f",
+      "age": "22",
+      "img": "https://media-exp1.licdn.com/dms/image/C5603AQEES5Yw5-nG2g/profile-displayphoto-shrink_200_200/0/1648787859373?e=1655942400&v=beta&t=3sFpti4mDbqMNbYMKDzloCtylP0-_DfWh0VS0NABy9M",
+      "totalclass": "8",
+      "id": 3,
+      "classes":[
+        {
+          "grade":"A",
+          "section":"a",
+          "subject":"English"
+        },
+        {
+         "grade":"b",
+         "section":"a",
+         "subject":"Science"
+       },
+       {
+         "grade":"A",
+         "section":"a",
+         "subject":"Science"
+       }
+ 
+      ]
+    },
+    {
+      "username": "manali",
+      "gender": "f",
+      "age": "22",
+      "img": "https://media-exp1.licdn.com/dms/image/C5603AQEES5Yw5-nG2g/profile-displayphoto-shrink_200_200/0/1648787859373?e=1655942400&v=beta&t=3sFpti4mDbqMNbYMKDzloCtylP0-_DfWh0VS0NABy9M",
+      "totalclass": "8",
+      "id": 3,
+      "classes":[
+        {
+          "grade":"A",
+          "section":"a",
+          "subject":"English"
+        },
+        {
+         "grade":"b",
+         "section":"a",
+         "subject":"Science"
+       },
+       {
+         "grade":"A",
+         "section":"a",
+         "subject":"Science"
+       }
+ 
+      ]
+    },
+    {
+      "username": "bablu",
+      "gender": "f",
+      "age": "22",
+      "img": "https://media-exp1.licdn.com/dms/image/C4D03AQHPfHNzHiUBAw/profile-displayphoto-shrink_200_200/0/1616225194665?e=1655942400&v=beta&t=QM4IniT2dCtMOo1Wa5B7jkqO56rS0P61hd9-RHx7rkM",
+      "totalclass": "8",
+      "id": 3,
+      "classes":[
+        {
+          "grade":"A",
+          "section":"a",
+          "subject":"English"
+        },
+        {
+         "grade":"b",
+         "section":"a",
+         "subject":"Science"
+       },
+       {
+         "grade":"A",
+         "section":"a",
+         "subject":"Science"
+       }
+ 
+      ]
+    }
+
+    
+    
+
+    
+  ]
+}

@@ -1,0 +1,32 @@
+.products{
+    width: 700px;
+   
+    margin-top: 30px; 
+    margin: auto;
+    grid-template-columns: repeat(3, 200px);
+    gap:30px
+}
+
+.products1{
+    width: 700px;
+   
+    margin-top: 30px; 
+   
+    gap:30px
+}
+#main{
+    border: 2px solid transparent;
+   
+    display: flex;
+}
+th{
+    border: 1px solid grey;
+    padding: 10px 50px;
+}
+td{
+    border: 1px solid grey;
+    font-size: 20px;
+    font-weight: bold;
+ 
+    
+}
