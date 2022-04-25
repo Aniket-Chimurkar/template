@@ -1,0 +1,67 @@
+1. What is Caching? How can you save money with Caching?
+In computing, a cache is a high-speed data storage layer which stores a subset of data, typically transient in nature, so that future requests for that data are served up faster than is possible by accessing the data’s primary storage location. 
+
+2.What is load balancing?
+Load balancing refers to efficiently distributing incoming network traffic across a group of backend servers, also known as a server farm or server pool.
+
+3. What is CAP Theorem?
+The CAP theorem, originally introduced as the CAP principle, can be used to explain some of the competing requirements in a distributed system with replication. It is a tool used to make system designers aware of the trade-offs while designing networked shared-data systems. 
+
+4.What is PACELC Theorem?
+The PACELC theorem is an extension to the CAP theorem. Both theorems were developed to provide a framework for comparing distributed systems. Like the CAP theorem, the PACELC theorem states that in case of network partitioning (P) in a distributed computer system, one has to choose between availability (A) and consistency (C).
+
+5. What is Eventual Consistency?
+Eventual consistency is a consistency model used in distributed computing to achieve high availability that informally guarantees that, if no new updates are made to a given data item, eventually all accesses to that item will return the last updated value.
+
+6. What is Strong Consistency?
+Strong consistency is one of the consistency models used in the domain of concurrent programming (e.g., in distributed shared memory, distributed transactions).
+
+7. What are the different types of databases?
+Relational databases.
+NoSQL databases. 
+Cloud databases. 
+Columnar databases. 
+Wide column databases. 
+Object-oriented databases. 
+Key-value databases. 
+Hierarchical databases.
+
+8. What are message queues?
+A message queue is a form of asynchronous service-to-service communication used in serverless and microservices architectures. Messages are stored on the queue until they are processed and deleted. Each message is processed only once, by a single consumer.
+
+9. Which service by Amazon Web Services (AWS) can you use for Queues?
+Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
+
+10. What is Pub Sub ?
+Pub/Sub is used for streaming analytics and data integration pipelines to ingest and distribute data. It is equally effective as a messaging- oriented middleware for service integration or as a queue to parallelize tasks.
+
+11. What are webhooks?
+Webhooks are one way that apps can send automated messages or information to other apps. It's how PayPal tells your accounting app when your clients pay you, how Twilio routes phone calls to your number, and how WooCommerce can notify you about new orders in Slack.
+
+12. What is Docker? Why do we use it?
+Docker is an open source containerization platform. It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
+
+13. What is S3 Service in AWS?
+Amazon S3 or Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface. Amazon S3 uses the same scalable storage infrastructure that Amazon.com uses to run its global e-commerce network.
+
+14. What is EC2 Instance in AWS?
+An Amazon EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the Amazon Web Services (AWS) infrastructure.
+
+15. What is Cloudfront in AWS?
+Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as . html, . css, . js, and image files, to your users.
+
+16. What is Route 53 In AWS?
+Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other.
+
+17. What are ELBs in AWS?
+Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs)
+
+18. What is TLS?
+Transport Layer Security, or TLS, is a widely adopted security protocol designed to facilitate privacy and data security for communications over the Internet. A primary use case of TLS is encrypting the communication between web applications and servers, such as web browsers loading a website. TLS can also be used to encrypt other communications such as email, messaging, and voice over IP (VoIP). In this article we will focus on the role of TLS in web application security.
+
+19. What is the difference HTTPS vs HTTP?
+HTTPS is HTTP with encryption. The only difference between the two protocols is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses. As a result, HTTPS is far more secure than HTTP. A website that uses HTTP has http:// in its URL, while a website that uses HTTPS has https://.
+
+20. What is a reverse proxy?
+In computer networks, a reverse proxy is the application that sits in front of back-end applications and forwards client requests to those applications. Reverse proxies help increase scalability, performance, resilience and security. 
+

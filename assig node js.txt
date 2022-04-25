@@ -1,0 +1,84 @@
+1. Explain in brief what is node js?
+Node. js (Node) is an open source development platform for executing JavaScript code server-side. Node is useful for developing applications that require a persistent connection from the browser to the server and is often used for real-time applications such as chat, news feeds and web push notifications.
+
+2. How is node js non-blocking?
+A non-blocking call in JavaScript provides a callback function that is to be called when the operation is complete. Node. js internally uses operating system level polling in combination with worker threads for operations that do not support polling.
+
+3. What is throughput?
+Throughput is a measure of how many units of information a system can process in a given amount of time. It is applied broadly to systems ranging
+
+4. How is Node js having high IO throughput?
+If the processor has to regularly wait for data to arrive, the task is said to be I/O intensive. Node. js's asynchronous nature however makes it really good at I/O intensive tasks, as it can keep doing other work while it waits for the data to arrive asynchronously.
+
+5. What are CPU intensive tasks?
+They are complex user actions that eat up more RAM. A few of such processes can shut down your server entirely. 
+
+6.How can you end up blocking your main thread in node.js?
+The whole idea behind node.js is that it does not do any heavy processing. Any heavy processing should be handled by a worker.
+
+7. What is the event loop?
+ JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events .
+
+8.  What are different phases in event loop?
+The Event Loop contains six main phases: timers, I/O callbacks, preparation / idle phase, I/O polling, setImmediate() callbacks execution, and close events callbacks.
+
+9. What is process.tick?
+Every time the event loop takes a full trip, we call it a tick.
+When we pass a function to process.nextTick(), we instruct the engine to invoke this function at the end of the current operation, before the next event loop tick starts
+
+10. When can process.tick starve your event loop?
+Next tick queue is displayed separately from the other four main queues because it is not natively provided by the libuv, but implemented in Node.
+
+11. What is the difference between setTimeout and setInterval?
+The setTimeout() function is commonly used if you wish to run your function a specified number of milliseconds from when the setTimeout() method was called.
+The setInterval() function, as the name suggests is commonly used to set a delay for functions that are executed again and again like animations. The setInterval() function is very closely related to setTimeout() - they even have same syntax
+setTimeout() triggers the expression only once whilesetInterval() keeps triggering expressionregularly after the given interval of time. (unless you tell it to stop).
+
+12. How can you make a network request with http module from the backend?
+Axios is a very popular promise-based request library. It is an HTTP client available for both browser and Node.js. It also includes handy features like intercepting request and response data, and the ability to automatically transform request and response data to JSON.
+
+13. How can you create your own events?
+Events can be created with the Event constructor eg. addEventListener Listen for the event ,  dispatchEven  dispatch the event.
+
+14. What is a Cluster?
+At a high level, a computer cluster is a group of two or more computers, or nodes, that run in parallel to achieve a common goal
+This allows workloads consisting of a high number of individual, parallelizable tasks to be distributed among the nodes in the cluster. 
+
+15. How does your Node.js application handle scale? Elaborate
+When you scale up, you have to be careful about different aspects of your application, from the state to the authentication, so the second article will cover some things you must consider when scaling up a Node.js application.
+
+16. What is the difference between readFile and readFileSync?
+In fs. readFile() method, we can read a file in a non-blocking asynchronous way, but in fs. readFileSync() method, we can read files in a synchronous way, i.e. we are telling node. js to block other parallel process and do the current file reading process.
+
+17. What are CORS? How do you configure them? Why do you need them?
+The CORS mechanism supports secure cross-origin requests and data transfers between browsers and servers. Modern browsers use CORS in APIs such as XMLHttpRequest or Fetch to mitigate the risks of cross-origin HTTP requests.
+
+18. What is rate limiting?
+Rate limiting blocks users, bots, or applications that are over-using or abusing a web property. Rate limiting can stop certain kinds of bot attacks.
+
+19. How does middlewares work in express?
+Middleware functions are functions that have access to the request object ( req ), the response object ( res ), and the next function in the application's request-response cycle.
+
+20. What is the difference between Encryption and Hashing?
+Since encryption is two-way, the data can be decrypted so it is readable again. Hashing, on the other hand, is one-way, meaning the plaintext is scrambled into a unique digest, through the use of a salt, that cannot be decrypted.
+
+21. What is the difference between https and http?
+HTTPS is HTTP with encryption. The only difference between the two protocols is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses. As a result, HTTPS is far more secure than HTTP. 
+
+22.What is TLS?   23 .What is AES?
+The difference between TLS and AES is like the difference between a car and an engine. TLS is a a cryptographic protocol. It uses cryptographic primitives .
+
+24. What is JWT Token? Why do we need to use JWT? What are some pros and cons?
+ It is a definitely a clever way to securely get the identity of the client. In simple language there is a secret Key used to encrypt the JSON formatted Data which primarily includes the user-id. 
+
+25. What is salting? Where do we store salt?
+ Getting access to the salts stored in a separate database requires hackers to hack two different databases to get access to the salt and the salted password.
+
+26. What is the difference between authorisation and Authentication?
+Simply put, authentication is the process of verifying who someone is, whereas authorization is the process of verifying what specific applications, files, and data a user has access to
+
+27. What is the difference between JS on the browser and node?
+Unlike the browser where Javascript is sandboxed for your safety, node. js has full access to the system like any other native application.
+
+28. What is V8?
+V8 is the name of the JavaScript engine that powers Google Chrome. It's the thing that takes our JavaScript and executes it while browsing with Chrome.
